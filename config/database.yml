@@ -11,7 +11,7 @@ default: &default
 
 development:
   <<: *default
-  database: db/development.sqlite3
+  url: postgres://totnnkewxutuma:3fe0079bc7b9df49b2bf7a6ca1274be3dbb011f70d8221c7309aa5cafede1f36@ec2-54-217-235-159.eu-west-1.compute.amazonaws.com:5432/d26rud4918slcs
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
