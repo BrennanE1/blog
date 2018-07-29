@@ -1,0 +1,16 @@
+<div><h1><ion-header-bar><b>ARTBLOG: By Andrea Ehret</b></ion-header-bar>
+<form action="http://andreaehret.com/">
+<input type="submit" value="ART" />
+</form></h1></div>
+<h1>Helping people heal through ART <br>
+<a href="/posts/new">New blog post</a></h1>
+         
+    <img src="http://www.galerie-andel.cz/wp-content/gallery/andrea-ehret/Andrea-Ehret-100x100-cm.jpg"/>
+ <% @posts.each do |post| %>   
+    <div class="intro"><h2><%= post.title %></h2>
+    <%= post.content %>
+    
+</div>
+<img src= "http://andreaehret.com/wp-content/uploads/2015/09/Podpis_1-150x150.png"/>
+<% end %>
+    

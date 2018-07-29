@@ -1,0 +1,11 @@
+<div><h1><ion-header-bar><b>ARTBLOG: By Andrea Ehret</b></ion-header-bar></h1></div>
+<img src= "http://www.galerie-andel.cz/wp-content/gallery/andrea-ehret/Andrea-Ehret-100x100-cm.jpg"/>
+<div class="">
+    <%= @post.title %>
+</div>  
+
+<p>
+    <%= @post.content %>
+</p> 
+
+<%= link_to "delete", "/posts/" + @post.id, method: "delete"

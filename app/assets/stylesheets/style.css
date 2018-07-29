@@ -1,0 +1,50 @@
+body {background-color: rgba(4, 5, 5, 0.897);} 
+div { font-size: 30px; 
+font-style: italic; 
+font-family: Georgia; 
+}
+h1 {
+   font-size: 50px;
+    border: solid 5px;
+    text-align: center;
+    color: whitesmoke;
+    border-radius: 25px;
+    background: rgb(5, 5, 5);
+  } 
+
+  .intro 
+  {margin-top: 5%;
+   font-size: 24px;
+   color: whitesmoke;
+   border-style: solid; 
+   border-width: 5px;
+   border-radius: 25px;
+   background: rgb(5, 5, 5);
+   padding: 20px;}
+ div { font-size: 50px; color: red} 
+
+h2 { 
+
+border: solid 5px; 
+text-align: center;
+color: whitesmoke;
+border-radius: 25px;
+background: );
+   } 
+ .fixit
+  {margin-top: 5%;
+  font-size: 24px;
+  color: black;
+  border-style: solid; 
+  border-width: 5px;
+  border-radius: 25px;
+  background: rgb(115, 172, 37);
+  padding: 20px;  
+}
+
+  
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} div
